@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  /* background: #252525; */
+  /* background: black; */
+  background:bisque;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  height: 8vh;
+}
+
+#mainContent {
+  width: 100vw;
+  height: 92vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jokeContainer {
+  padding: 0.9em 1.3em;
+  border-radius: 0.5vw;
+  position: relative;
+  top: 2vh;
+  font-size: 1.5vw;
+  background: #252525;
+  color: white;
+  /* left: 8vw; */
+  /* height: 17vh;
+  width: 75vw; */
+}
+
+.btnContainer {
+  margin-bottom: 2em;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  /* cursor: progress; */
+  font-size: 1.1vw;
+  cursor: pointer;
+  background: plum;
+  font-weight: 700;
+  border: none;
+  padding: 0.6em 1em;
+  border-radius: 0.34vw;
+  /* margin: 0.3em 0.7em; */
+
+}
+
+.btn1,.btn2{
+  margin: 0.3em 5.7em;
+}
+
+.btn3{
+  margin: auto;
+}
+
+.navbar h1 {
+  font-size: 2vw;
+  transition: all 0.2s ease-in-out;
+  color: white;
+  text-shadow: 0 0 0.25em #fff, 0 0 0.5em #fff, 0 0 0.75em #fff;
+}
